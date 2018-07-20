@@ -14,7 +14,8 @@ public class HelloWorld {
     @RequestMapping(value = "/")
     @ResponseBody
     public String hello(){
-        String message = "Hello,world";
+        String message = "hello world";
         return message;
     }
+
 }

@@ -10,7 +10,7 @@
 <h1>评论</h1>
 <form action="/comment/post" method="post">
     <input type="hidden" name="nickName" value="bmatch">
-    <input type="hidden" name="song Id" value="35847388"/>
+    <input type="hidden" name="songId" value="35847388"/>
     <input name="content" type="text" style="width: 80%;height: 100px;" placeholder="填写你的评论"/>
     <br/>
     <button type="submit">评论</button>
@@ -22,7 +22,7 @@
     <li>
         <img th:src="${comment.icon}"/>
         <span th:text="${comment.nickName}"></span>
-        <span th:text=" ${comment.content}"></span>
+        <span th:text="${comment.content}"></span>
     </li>
 
     <li>

@@ -1,4 +1,4 @@
-package com.qingguatang.java5minute.course4.model;
+package com.qingguatang.java5minute.course4;
 
 import com.qingguatang.java5minute.course4.model.Comment;
 import com.qingguatang.java5minute.course5.CommentPostControl;

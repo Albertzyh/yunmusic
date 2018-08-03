@@ -3,6 +3,8 @@ package com.qingguatang.java5minute.course4.model;
 import java.util.Date;
 
 public class Comment {
+
+    private String Id;
     //评论人头像
     private String icon;
     //评论人昵称
@@ -13,6 +15,14 @@ public class Comment {
     private Date commentTime;
     //点赞数
     private int likeNum;
+
+    public String getId() {
+        return Id;
+    }
+
+    public void setId(String id) {
+        this.Id = id;
+    }
 
     public String getIcon() {
         return icon;

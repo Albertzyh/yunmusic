@@ -14,6 +14,16 @@ public class SongInfo {
     //专辑图片
     private String albumImg;
 
+    private String id;
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
     public String getName(){
         return name;
     }

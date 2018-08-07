@@ -40,13 +40,13 @@
     $(function () {
         $(".player-btn").on('click',function (e) {
             e.preventDefault();
-            var songId = $(this).data(id);
+            var songId = $(this).data("id");
 
             $.ajax({
                 url:"/song/music",
                 method:"GET",
                 data:{
-                    songId:"songId"
+                    songId:songId
                 },
                 cache:false
             })
